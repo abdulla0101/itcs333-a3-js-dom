@@ -1,9 +1,4 @@
-// ITCS333 A3 starter — implement the to-do app per README.
-// You may wrap everything in a DOMContentLoaded handler or an IIFE.
-// Requirements: add / toggle-complete / delete / filter / counter,
-// using event delegation on #todo-list.
 
-// TODO: your code here
 (() => {
 
     let form = document.getElementById("todo-form");
@@ -17,7 +12,6 @@
     let filterDone = document.getElementById("filter-done");
 
     let currentFilter = "all";
-
     
     form.addEventListener("submit", function(e) {
 
